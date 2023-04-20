@@ -105,28 +105,3 @@ Si el ciudadano no es válido, se retornará un objeto JSON con el siguiente for
 
 El objeto "info" contendrá la información de validación del ciudadano, incluyendo el código de validación, el mensaje y el ID de la transacción.
 
-### Códigos de Respuesta SIB
-
-A continuación se detallan los diferentes códigos de respuesta que puede retornar el servicio:
-
-Código | Descripción | Resultado
---- | --- | ---
-0 | Usuario Validado | TRUE
-603 | Ciudadano difunto | FALSE
-604 | Ciudadano mayor de edad cuya inscripción de Nacimiento (Nacional) esté cancelada | FALSE
-602 | Ciudadano menor de 12 años | FALSE
-601 | Cédula no existe en la base de datos | FALSE
-606 | Cédula en blanco | FALSE
-601 | Cédula con formato inválido | FALSE
-605 | Ciudadano no reconocido | FALSE
-
-También se describen los siguientes casos especiales:
-
-- Ciudadano difunto: retorna FALSE con el código de error 603.
-- Ciudadano mayor de edad cuya inscripción de Nacimiento (Nacional) esté cancelada: retorna FALSE con el código de error 604.
-- Ciudadano menor de 12 años: retorna FALSE con el código de error
-- Cédula no existe en la base de datos: retorna FALSE con el código de error 601.
-- Cédula en blanco: retorna FALSE con el código de error 606.
-- Cédula con formato inválido: actualmente no está contemplado en el servicio, por lo que retorna el código de error 601.
-- Ciudadano sin foto registrada: retorna FALSE con el código de error 605.
-- El rostro no coincide con los registros: retorna FALSE con el código de error 605.
