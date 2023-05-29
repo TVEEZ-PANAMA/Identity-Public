@@ -18,9 +18,9 @@ var myHeaders = new Headers();
 myHeaders.append("Content-Type", "application/json");
 
 var raw = JSON.stringify({
-  "username": "sdk@capsa.com",
-  "email": "sdk@capsa.com",
-  "password": "jDmfRockZO"
+  "username": "xxxxx@capsa.com",
+  "email": "xxxxxx@capsa.com",
+  "password": "xxxxxxxxxxxxxxxxxxxxxx"
 });
 
 var requestOptions = {
@@ -30,7 +30,7 @@ var requestOptions = {
   redirect: 'follow'
 };
 
-fetch("https://facetec.getxplor.com:8443/auth/login-sdk", requestOptions)
+fetch("xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/auth/login-sdk", requestOptions)
   .then(response => response.text())
   .then(result => console.log(result))
   .catch(error => console.log('error', error));
