@@ -1,26 +1,21 @@
 # Identity
 Es un novedoso sistema de identificación biométrica diseñado para reconocer, verificar y dar prueba de vida de un usuario, sin mantener contacto personal.
-### Identificación Biométrica
-### Sistema de prueba de vida
-### Software de prevención de falsificación de documentos
-### Software de verificación de identidad
-### Evitar robo de identidad
 
 ## Versiones
 ## v1.3.0
 
-## Login
+### Login
 ### Ejemplos:
 Ejemplos para ser consumidos desde con las siguientes tecnologias:
-* Javascript Fetch
+- **Javascript Fetch**
 ```
 var myHeaders = new Headers();
 myHeaders.append("Content-Type", "application/json");
 
 var raw = JSON.stringify({
-  "username": "xxxxx@capsa.com",
-  "email": "xxxxxx@capsa.com",
-  "password": "xxxxxxxxxxxxxxxxxxxxxx"
+  "username": "xxxxxxxxxxxx@domain.com",
+  "email": "xxxxxxxxxxxx@domain.com",
+  "password": "x*x*x*x*x*x*x*x"
 });
 
 var requestOptions = {
@@ -30,12 +25,51 @@ var requestOptions = {
   redirect: 'follow'
 };
 
-fetch("xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/auth/login-sdk", requestOptions)
+fetch("https://xxxxxxxx/auth/login-sdk", requestOptions)
   .then(response => response.text())
   .then(result => console.log(result))
   .catch(error => console.log('error', error));
 ```
 
-## Match-2d-2d
+- **node Js Axios**
+```
+const axios = require('axios');
+let data = JSON.stringify({
+  "username": "xxxxxxxxxxxx@domain.com",
+  "email": "xxxxxxxxxxxx@domain.com",
+  "password": "x*x*x*x*x*x*x*x"
+});
 
+let config = {
+  method: 'post',
+  maxBodyLength: Infinity,
+  url: 'https://xxxxxxxx/auth/login-sdk',
+  headers: { 
+    'Content-Type': 'application/json'
+  },
+  data : data
+};
+
+axios.request(config)
+.then((response) => {
+  console.log(JSON.stringify(response.data));
+})
+.catch((error) => {
+  console.log(error);
+});
+```
+
+- **C# HttpClient**
+```
+var client = new HttpClient();
+var request = new HttpRequestMessage(HttpMethod.Post, "https://xxxxxxxx/auth/login-sdk");
+var content = new StringContent("{\r\n    \"username\": \"xxxxxxxxxxxx@domain.com\",\r\n    \"email\": \"xxxxxxxxxxxx@domain.com\",\r\n    \"password\": \"x*x*x*x*x*x*x*x\"\r\n}", null, "application/json");
+request.Content = content;
+var response = await client.SendAsync(request);
+response.EnsureSuccessStatusCode();
+Console.WriteLine(await response.Content.ReadAsStringAsync());
+```
+
+### Match-2d-2d
+### Ejemplos:
 
