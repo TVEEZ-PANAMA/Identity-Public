@@ -12,7 +12,7 @@ Es un novedoso sistema de identificación biométrica diseñado para reconocer, 
 ### Ejemplos:
 Ejemplos para ser consumidos desde con las siguientes tecnologias:
 
-1 Javascript Fetch
+*** Javascript Fetch
 ```
 var myHeaders = new Headers();
 myHeaders.append("Content-Type", "application/json");
