@@ -13,6 +13,7 @@ Es un novedoso sistema de identificación biométrica diseñado para reconocer, 
 Ejemplos para ser consumidos desde con las siguientes tecnologias:
 
 1 Javascript Fetch
+`
 var myHeaders = new Headers();
 myHeaders.append("Content-Type", "application/json");
 
@@ -33,4 +34,5 @@ fetch("https://facetec.getxplor.com:8443/auth/login-sdk", requestOptions)
   .then(response => response.text())
   .then(result => console.log(result))
   .catch(error => console.log('error', error));
+  `
 
