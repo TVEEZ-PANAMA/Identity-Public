@@ -8,11 +8,11 @@ Es un novedoso sistema de identificación biométrica diseñado para reconocer, 
 
 ## Versiones
 ## v1.3.0
-## Match-2d-2d
+
+## Login
 ### Ejemplos:
 Ejemplos para ser consumidos desde con las siguientes tecnologias:
-
-*** Javascript Fetch
+* Javascript Fetch
 ```
 var myHeaders = new Headers();
 myHeaders.append("Content-Type", "application/json");
@@ -35,4 +35,7 @@ fetch("xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/auth/login-sdk", requestOptions)
   .then(result => console.log(result))
   .catch(error => console.log('error', error));
 ```
+
+## Match-2d-2d
+
 
