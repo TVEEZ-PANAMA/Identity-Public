@@ -6,7 +6,7 @@ Es un novedoso sistema de identificación biométrica diseñado para reconocer, 
 
 ### Login SDK
 ### Ejemplos:
-Ejemplos para consumir el **/auth/login-sdk** desde las siguientes plataformas:
+Ejemplos para consumir el endpoint **/auth/login-sdk** desde las siguientes plataformas:
 - **Javascript Fetch**
 ```
 var myHeaders = new Headers();
@@ -72,7 +72,7 @@ Console.WriteLine(await response.Content.ReadAsStringAsync());
 
 ### Match-2d-2d
 ### Ejemplos:
-Ejemplos para consumir el **/user/f/match-2d-2d** desde las siguientes plataformas:
+Ejemplos para consumir el endpoint **/user/f/match-2d-2d** desde las siguientes plataformas:
 - **Javascript Fetch**
 ```
 var myHeaders = new Headers();
