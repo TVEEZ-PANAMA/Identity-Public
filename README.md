@@ -152,7 +152,7 @@ Console.WriteLine(await response.Content.ReadAsStringAsync());
 * [**JORGE MARTINEZ** - *QA*](https://github.com/jorgermp28)
 
 ## Licencia 📄
-Este proyecto está bajo la Licencia (MIT) - mira el archivo [LICENSE.md](LICENSE.md) para detalles
+Este proyecto está bajo la Licencia (MIT) - mira el archivo [LICENSE.md](license.md) para detalles
 
 ---
 ⌨️ con ❤️ por [Team Xplor](https://getxplor.com) 😊
