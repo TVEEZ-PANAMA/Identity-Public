@@ -146,10 +146,10 @@ Console.WriteLine(await response.Content.ReadAsStringAsync());
 ```
 
 ## Autores ✒️
-* **MATIAS ARTETA** - *Desarrollador* - [matias](https://github.com/matiasxplor)
-* **GILBERTO BECKFORD** - *Desarrollador* - [gilberto](https://github.com/GbeckXplor)
-* **SAMUEL VÁSQUEZ** - *Desarrollador* - [samuel](https://github.com/samyr0722)
-* **JORGE MARTINEZ** - *QA* - [jorge](https://github.com/jorgermp28)
+*  [**MATIAS ARTETA** - *Desarrollador*](https://github.com/matiasxplor)
+* [**GILBERTO BECKFORD** - *Desarrollador*](https://github.com/GbeckXplor)
+* [**SAMUEL VÁSQUEZ** - *Desarrollador*](https://github.com/samyr0722)
+* [**JORGE MARTINEZ** - *QA*](https://github.com/jorgermp28)
 
 ## Licencia 📄
 Este proyecto está bajo la Licencia (MIT) - mira el archivo [LICENSE.md](LICENSE.md) para detalles
