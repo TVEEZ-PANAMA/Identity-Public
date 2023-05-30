@@ -4,7 +4,7 @@ Es un novedoso sistema de identificación biométrica diseñado para reconocer, 
 ## Versiones 📌
 ## v1.3.0
 
-### Login SDK
+### **Login SDK**
 ### Ejemplos:
 Ejemplos para consumir el endpoint **/auth/login-sdk** desde las siguientes plataformas:
 - **Javascript Fetch**
@@ -70,7 +70,7 @@ response.EnsureSuccessStatusCode();
 Console.WriteLine(await response.Content.ReadAsStringAsync());
 ```
 
-### Match-2d-2d
+### **Match-2d-2d**
 ### Ejemplos:
 Ejemplos para consumir el endpoint **/user/f/match-2d-2d** desde las siguientes plataformas:
 - **Javascript Fetch**
