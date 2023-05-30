@@ -146,9 +146,9 @@ Console.WriteLine(await response.Content.ReadAsStringAsync());
 ```
 
 ## Autores ✒️
-*  [**MATIAS ARTETA** - *Desarrollador*](https://github.com/matiasxplor)
-* [**GILBERTO BECKFORD** - *Desarrollador*](https://github.com/GbeckXplor)
-* [**SAMUEL VÁSQUEZ** - *Desarrollador*](https://github.com/samyr0722)
+* [**MATIAS ARTETA** - *DevOps*](https://github.com/matiasxplor)
+* [**GILBERTO BECKFORD** - *FullStack*](https://github.com/GbeckXplor)
+* [**SAMUEL VÁSQUEZ** - *FullStack*](https://github.com/samyr0722)
 * [**JORGE MARTINEZ** - *QA*](https://github.com/jorgermp28)
 
 ## Licencia 📄
