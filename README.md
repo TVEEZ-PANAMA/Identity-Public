@@ -1,7 +1,7 @@
-# Identity
+# Identity 🔧
 Es un novedoso sistema de identificación biométrica diseñado para reconocer, verificar y dar prueba de vida de un usuario, sin mantener contacto personal.
 
-## Versiones
+## Versiones 📌
 ## v1.3.0
 
 ### Login SDK
@@ -145,4 +145,15 @@ response.EnsureSuccessStatusCode();
 Console.WriteLine(await response.Content.ReadAsStringAsync());
 ```
 
+## Autores ✒️
+* **MATIAS ARTETA** - *Desarrollador* - [matias](https://github.com/matiasxplor)
+* **GILBERTO BECKFORD** - *Desarrollador* - [gilberto](https://github.com/GbeckXplor)
+* **SAMUEL VÁSQUEZ** - *Desarrollador* - [samuel](https://github.com/samyr0722)
+* **JORGE MARTINEZ** - *QA* - [jorge](https://github.com/jorgermp28)
+
+## Licencia 📄
+Este proyecto está bajo la Licencia (MIT) - mira el archivo [LICENSE.md](LICENSE.md) para detalles
+
+---
+⌨️ con ❤️ por [Team Xplor](https://getxplor.com) 😊
 
